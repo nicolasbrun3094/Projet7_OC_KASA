@@ -1,0 +1,7 @@
+.header-container {
+  display: flex;
+  justify-content: space-between !important;
+  margin: 0 auto;
+  margin-top: 2%;
+  margin-bottom: 30px !important;
+}

@@ -1,0 +1,9 @@
+.logo {
+  margin-left: 6%;
+  position: absolute;
+  width: 20%;
+}
+.logo img {
+  margin-top: 4px;
+  width: 100%;
+}

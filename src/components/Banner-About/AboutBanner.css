@@ -1,0 +1,6 @@
+@media screen and (max-width: 480px) {
+  .about-banner {
+    margin-bottom: 35px !important;
+    height: 223px !important;
+  }
+}

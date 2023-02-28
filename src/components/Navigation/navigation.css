@@ -1,0 +1,39 @@
+.navigation {
+  position: relative;
+  font-size: 1.4em;
+  z-index: 100;
+  width: 95%;
+  height: 9vh;
+  margin-top: 2%;
+}
+
+.navigation a {
+  margin-top: 1.8%;
+  text-decoration: none;
+  color: #f56a6a;
+}
+
+.navigation a:hover {
+  text-decoration: underline;
+}
+
+.navbar {
+  display: flex;
+  justify-content: right;
+}
+
+.navbar li {
+  margin: 0 1rem;
+}
+@media screen and (max-width: 768px) {
+  .navigation {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .navigation {
+    font-size: 14px;
+    height: 5vh;
+  }
+}

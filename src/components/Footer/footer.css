@@ -1,0 +1,29 @@
+/* ---- Élement de style bannière du composant Footer.js ---- */
+.footer {
+  background-color: black;
+  height: 200px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  bottom: 0;
+  text-align: center;
+}
+
+.footerLogo {
+  width: 100px;
+  margin: auto;
+}
+
+.copyright {
+  color: white;
+  position: absolute;
+  text-align: center;
+  margin-top: 9em;
+  width: 100%;
+}
+
+/* p {
+  color: white;
+  width: 100%;
+  text-align: center;
+} */

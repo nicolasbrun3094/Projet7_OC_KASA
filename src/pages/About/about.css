@@ -1,0 +1,15 @@
+@media screen and (max-width: 768px) {
+  .home-banner {
+    height: 100px !important;
+  }
+
+  .dropdown-container {
+    margin-bottom: 49px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .footer {
+    position: initial;
+  }
+}

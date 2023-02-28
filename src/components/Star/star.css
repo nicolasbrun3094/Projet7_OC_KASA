@@ -1,0 +1,45 @@
+.star {
+  width: 30px;
+  height: 30px;
+}
+
+.rating {
+  margin-top: 0px;
+}
+
+.rating-container {
+  width: 126%;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  margin-top: 10px;
+  margin-left: -28%;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .star {
+    width: 25px;
+    height: 25px;
+  }
+}
+
+@media screen and (max-width: 493px) {
+  .star {
+    width: 22px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .star {
+    margin-top: 15px;
+    width: 20px;
+    height: 20px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .rating-container {
+    margin-top: -5px;
+  }
+}

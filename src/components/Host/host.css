@@ -1,0 +1,52 @@
+.hosting-container {
+  display: flex;
+  gap: 1rem;
+}
+
+h3 {
+  color: #ff6060;
+  display: flex;
+  align-items: center;
+}
+
+.name-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  align-items: flex-end;
+  text-align: right;
+}
+
+.hosting {
+  width: 4rem;
+  height: 4rem;
+  margin: 0 auto;
+  border-radius: 50%;
+  background-color: #c4c4c4;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 772px) {
+  .hosting-container {
+    margin-top: -20px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .hosting-container {
+    height: 20%;
+    margin-top: -9px;
+  }
+  .hosting {
+    height: 3rem;
+    width: 3rem;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  h2,
+  h3 {
+    font-size: 0.7rem;
+  }
+}
