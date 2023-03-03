@@ -30,7 +30,8 @@
   .information-container {
     margin-bottom: 15px;
     font-size: 14px !important;
-    flex-direction: initial;
+    flex-direction: column;
+    gap: 35px;
   }
 }
 
