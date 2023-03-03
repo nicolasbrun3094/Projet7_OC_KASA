@@ -66,12 +66,11 @@ const Fraction = styled.span`
   margin-left: 5px;
 `;
 
-const Carousel = () => {
+const Carousel = ({ images }) => {
   const { id } = useParams();
 
   // Chercher l'objet avec l'id correspondant
   const location = housingData.find((item) => item.id === id);
-  const images = location.pictures;
 
   // Utiliser useState pour stocker l'index de l'image actuellement affichée
   const [currentIndex, setCurrentIndex] = useState(0);

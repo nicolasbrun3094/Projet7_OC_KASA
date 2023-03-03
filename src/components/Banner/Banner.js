@@ -1,12 +1,11 @@
 import React from "react";
-import BannerWall from "../../assets/image/Pages/Home/Banniere.png";
 import "./banner.css";
 
-const Banner = () => {
+const Banner = ({ title, image }) => {
   return (
     <div className="banner">
-      <img className="banner-img home-banner" src={BannerWall} alt="Bannière" />
-      <span className="banner-txt">Chez vous, partout et ailleurs</span>
+      <img className="banner-img home-banner" src={image} alt="Bannière" />
+      <span className="banner-txt">{title}</span>
     </div>
   );
 };

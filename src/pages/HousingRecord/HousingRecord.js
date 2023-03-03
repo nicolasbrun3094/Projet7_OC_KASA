@@ -20,12 +20,13 @@ const HousingRecord = () => {
   }
   const equipments = location.equipments;
   const description = location.description;
+  const images = location.pictures;
 
   return (
     <div>
       <Logo />
       <Navigation />
-      <Carousel />
+      <Carousel images={images} />
       <div className="information-container">
         <div className="right-information">
           <HousingTitle />
