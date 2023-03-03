@@ -13,13 +13,14 @@
   color: #f56a6a;
 }
 
-.navigation a:hover {
-  text-decoration: underline;
-}
-
 .navbar {
   display: flex;
   justify-content: right;
+}
+
+.navbar .active {
+  text-decoration: underline;
+  color: red;
 }
 
 .navbar li {
