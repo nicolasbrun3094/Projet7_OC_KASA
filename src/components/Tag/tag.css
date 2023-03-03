@@ -4,6 +4,8 @@
 
 .left-information {
   margin-right: 10px;
+  display: flex;
+  flex-direction: column-reverse;
 }
 
 .tag-container {
@@ -36,6 +38,11 @@
 }
 
 @media screen and (max-width: 480px) {
+  .left-information {
+    display: flex;
+    flex-direction: initial;
+    width: 96%;
+  }
   .tag-container {
     margin-top: 0px !important;
   }
@@ -43,6 +50,7 @@
 
 @media screen and (max-width: 435px) {
   .tag-container {
+    width: 100%;
     margin-left: 0px;
   }
 }

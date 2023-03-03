@@ -32,8 +32,8 @@ const HousingRecord = () => {
           <Tag />
         </div>
         <div className="left-information">
-          <Host />
           <Star />
+          <Host />
         </div>
       </div>
       <div className="collapse">

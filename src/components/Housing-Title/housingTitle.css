@@ -29,14 +29,6 @@ h3 {
   }
 }
 
-@media screen and (max-width: 600px) {
-  .div-title,
-  h2,
-  h3 {
-    font-size: 0.8rem;
-  }
-}
-
 @media screen and (max-width: 480px) {
   .hosting-container {
     margin-top: -7px;
@@ -48,32 +40,16 @@ h3 {
 
   .title-container {
     justify-content: initial;
-  }
-
-  h2,
-  h3 {
-    font-size: 1.1rem;
+    width: 100%;
   }
 
   .tag-container {
     justify-content: initial;
     margin-left: -20px;
   }
-
-  .tag-text {
-    font-size: 0.6rem;
-  }
-
-  .hosting {
-    width: 2.5rem;
-    height: 2.5rem;
-  }
 }
 
 @media screen and (max-width: 412px) {
-  h2 {
-    font-size: 1rem;
-  }
   .title {
     margin-bottom: 0px;
   }
