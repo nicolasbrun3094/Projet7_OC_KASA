@@ -69,10 +69,10 @@ const Fraction = styled.span`
 const Carousel = ({ images }) => {
   const { id } = useParams();
 
-  // Chercher l'objet avec l'id correspondant
+  // Cherche l'objet avec l'id correspondant
   const location = housingData.find((item) => item.id === id);
 
-  // Utiliser useState pour stocker l'index de l'image actuellement affichée
+  // Utilise useState pour stocker l'index de l'image actuellement affichée
   const [currentIndex, setCurrentIndex] = useState(0);
 
   // Fonction pour afficher l'image suivante
@@ -85,26 +85,38 @@ const Carousel = ({ images }) => {
     setCurrentIndex((currentIndex - 1 + images.length) % images.length);
   };
 
-  // Calculer le numéro de l'image actuelle sous forme de fraction
+  // Calcule le numéro de l'image actuelle sous forme de fraction
   const currentNumber = `${currentIndex + 1}/${images.length}`;
 
-  return (
-    <Container>
-      <ImageContainer>
-        <Image src={images[currentIndex]} alt={location.name} />
-        <NumberContainer>
-          {currentNumber}
-          <Fraction>&nbsp;</Fraction>
-        </NumberContainer>
-        <PrevArrow position="left" onClick={prevImage}>
-          &lt;
-        </PrevArrow>
-        <NextArrow position="right" onClick={nextImage}>
-          &gt;
-        </NextArrow>
-      </ImageContainer>
-    </Container>
-  );
+  // Affiche les flèches et la pagination uniquement si le tableau d'images contient plus d'une image
+  if (images.length > 1) {
+    return (
+      <Container>
+        <ImageContainer>
+          <Image src={images[currentIndex]} alt={location.name} />
+          <NumberContainer>
+            {currentNumber}
+            <Fraction>&nbsp;</Fraction>
+          </NumberContainer>
+          <PrevArrow position="left" onClick={prevImage}>
+            &lt;
+          </PrevArrow>
+          <NextArrow position="right" onClick={nextImage}>
+            &gt;
+          </NextArrow>
+        </ImageContainer>
+      </Container>
+    );
+  } else {
+    // Retourne simplement l'élément ImageContainer s'il n'y a qu'une image
+    return (
+      <Container>
+        <ImageContainer>
+          <Image src={images[0]} alt={location.name} />
+        </ImageContainer>
+      </Container>
+    );
+  }
 };
 
 export default Carousel;
