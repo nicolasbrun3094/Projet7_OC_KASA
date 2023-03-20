@@ -8,7 +8,7 @@ const Error = () => {
       <p className="message">
         Oups, la page que vous demandez n'est pas disponible !
       </p>
-      <a className="redirection" href="/home">
+      <a className="redirection" href="/">
         Retourner sur la page d'accueil
       </a>
     </div>

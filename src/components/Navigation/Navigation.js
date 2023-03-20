@@ -6,7 +6,7 @@ const Navigation = () => {
   return (
     <div className="navigation">
       <ul className="navbar">
-        <NavLink exact to="/home">
+        <NavLink exact to="/">
           <li>Accueil</li>
         </NavLink>
         <NavLink to="/about">
