@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Projet7_OC_KASA/static/css/main.f3e683ad.css",
-    "main.js": "/Projet7_OC_KASA/static/js/main.96944462.js",
-    "static/media/Banniere.png": "/Projet7_OC_KASA/static/media/Banniere.401fc5db2fea53843bf6.png",
-    "index.html": "/Projet7_OC_KASA/index.html",
-    "static/media/Fleche.svg": "/Projet7_OC_KASA/static/media/Fleche.72cc4a3b6e8b30f59405054bcbc9b792.svg",
-    "main.f3e683ad.css.map": "/Projet7_OC_KASA/static/css/main.f3e683ad.css.map",
-    "main.96944462.js.map": "/Projet7_OC_KASA/static/js/main.96944462.js.map"
+    "main.css": "/Projet7_OC_KASA/home/static/css/main.f3e683ad.css",
+    "main.js": "/Projet7_OC_KASA/home/static/js/main.e8579d9d.js",
+    "static/media/Banniere.png": "/Projet7_OC_KASA/home/static/media/Banniere.401fc5db2fea53843bf6.png",
+    "index.html": "/Projet7_OC_KASA/home/index.html",
+    "static/media/Fleche.svg": "/Projet7_OC_KASA/home/static/media/Fleche.72cc4a3b6e8b30f59405054bcbc9b792.svg",
+    "main.f3e683ad.css.map": "/Projet7_OC_KASA/home/static/css/main.f3e683ad.css.map",
+    "main.e8579d9d.js.map": "/Projet7_OC_KASA/home/static/js/main.e8579d9d.js.map"
   },
   "entrypoints": [
     "static/css/main.f3e683ad.css",
-    "static/js/main.96944462.js"
+    "static/js/main.e8579d9d.js"
   ]
 }
