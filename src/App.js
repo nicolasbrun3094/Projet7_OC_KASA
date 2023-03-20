@@ -11,7 +11,7 @@ const App = () => {
     // ---- Englobe toutes les routes ---- //
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/home" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/housingRecord/:id" element={<HousingRecord />} />
         <Route path="*" element={<Error />} />
